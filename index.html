@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanyam's Resume Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="btn btn-outline-primary position-fixed end-0 z-3 me-5 mt-3" href="cart.html">
+    <i class="bi bi-cart"></i>
+    <span class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      0
+    </span>
+  </a>
+  <button class="btn btn-outline-secondary z-3 position-fixed end-0 mt-3" id="theme-toggle">
+    <i class="bi bi-moon-fill"></i>
+  </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="./assets/main-logo.jpeg" alt="logo" class="img-fluid" width="150">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section py-5 mb-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <span class="badge bg-secondary px-3 py-2 mb-2">Welcome to my Resume Store</span>
+          <h1 class="display-4 fw-bold mb-3">Sanyam's <span class="text-primary">Resume Store</span></h1>
+          <p class="lead text-muted mb-4">Shop for skills, browse projects, and hire a passionate developer for your team.</p>
+          <div class="d-flex flex-column flex-sm-row gap-2">
+            <a href="skills.html" class="btn btn-primary btn-lg">
+              Start Shopping for Skills <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+            <a href="projects.html" class="btn btn-outline-secondary btn-lg">View Projects</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="profile-image-container">
+            <img src="./assets/logo.heic" alt="Sanyam's Profile" class="img-fluid rounded-circle border border-black border-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+<div class="hero-card container">
+  <div class="wrap">
+    <div class="terminal">
+      <hgroup class="head">
+        <p class="title">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            height="16px"
+            width="16px"
+          >
+            <path
+              d="M7 15L10 12L7 9M13 15H17M7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V7.8C21 6.11984 21 5.27976 20.673 4.63803C20.3854 4.07354 19.9265 3.6146 19.362 3.32698C18.7202 3 17.8802 3 16.2 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21Z"
+            ></path>
+          </svg>
+          Terminal
+        </p>
+
+        <button type="button" tabindex="-1" class="copy_toggle">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            height="16px"
+            width="16px"
+          >
+            <path
+              d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"
+            ></path>
+            <path
+              d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"
+            ></path>
+          </svg>
+        </button>
+      </hgroup>
+
+      <div class="body">
+        <pre class="pre">          <code>-&nbsp;</code>
+          <code>npm install&nbsp;</code>
+          <code data-cmd="Hardworking" class="cmd"></code>
+        </pre>
+        <pre class="pre">          <code>-&nbsp;</code>
+          <code>npm install&nbsp;</code>
+          <code data-cmd="Challenge-driven" class="cmd"></code>
+        </pre>
+        <pre class="pre">          <code>-&nbsp;</code>
+          <code>npm install&nbsp;</code>
+          <code data-cmd="Growth-focused" class="cmd"></code>
+        </pre>
+        <pre class="pre">          <code>-&nbsp;</code>
+          <code>npm install&nbsp;</code>
+          <code data-cmd="Career-oriented" class="cmd"></code>
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+  <section class="featured-skills py-5 mb-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h2 class="fw-bold">Featured Skills</h2>
+          <p class="text-muted">Top skills that recruiters are shopping for</p>
+        </div>
+        <a href="skills.html" class="btn btn-link text-decoration-none">
+          View All <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+      
+      <div class="row" id="featured-skills">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/html.png" class="img-fluid" alt="HTML" width="200">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">HTML</h3>
+                <span class="badge bg-light text-dark">7 Years</span>
+              </div>
+              <p class="text-muted small mb-3">Web Development</p>
+              <p>The standard markup language for creating web pages.</p>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+              <button class="btn btn-primary w-100 add-to-cart" data-id="skill-6">
+                <i class="bi bi-cart-plus me-2"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/node.png" class="img-fluid" alt="Node.js" width="200">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">Node.js</h3>
+                <span class="badge bg-light text-dark">5 Years</span>
+              </div>
+              <p class="text-muted small mb-3">Backend Development</p>
+              <p>A JavaScript runtime environment for backend development.</p>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+              <button class="btn btn-primary w-100 add-to-cart" data-id="skill-9">
+                <i class="bi bi-cart-plus me-2"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/python.svg" class="img-fluid" alt="Python" width="200">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">Python</h3>
+                <span class="badge bg-light text-dark">4 Years</span>
+              </div>
+              <p class="text-muted small mb-3">Programming</p>
+              <p>A versatile programming language used in multiple domains.</p>
+            </div>
+            <div class="card-footer bg-white border-top-0">
+              <button class="btn btn-primary w-100 add-to-cart" data-id="skill-2">
+                <i class="bi bi-cart-plus me-2"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-skills py-5 mb-5 bg-light">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h2 class="fw-bold">Featured Projects</h2>
+          <p class="text-muted">Top projects that showcase my expertise</p>
+        </div>
+        <a href="projects.html" class="btn btn-link text-decoration-none">
+          View All <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+      
+      <div class="row" id="featured-skills">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/rozeh.jpeg" class="img-fluid" alt="rozeh" width="200" height="100">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">ROZEH</h3>
+              </div>
+              <p class="text-muted small mb-3">E-Commerece</p>
+              <p>Structuring and designing web pages with HTML.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/vipra.png" class="img-fluid" alt="Vipra" width="200" height="100">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">VIPRA</h3>
+              </div>
+              <p class="text-muted small mb-3">Matrimonial</p>
+              <p>Creating scalable server-side applications with Node.js and Express.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-img-top position-relative d-flex justify-content-center pt-3">
+              <img src="./assets/neurofy.png" class="img-fluid" alt="neurofy" width="200" height="100">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold">NEUROFY</h3>
+              </div>
+              <p class="text-muted small mb-3">Educational</p>
+              <p>Versatile programming for development and data science.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials py-5 mb-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Customer Testimonials</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-body">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <blockquote class="mb-4 border-start border-primary ps-3 fst-italic">
+                "Sanyam is an exceptional developer who delivered our project on time and exceeded our expectations."
+              </blockquote>
+              <div class="d-flex align-items-center">
+                <img src="./assets/testtimonial1.jpg" class="rounded-circle me-3" alt="Customer" width="70" height="80">
+                <div>
+                  <p class="fw-bold mb-0">Sanyam</p>
+                  <p class="text-muted small">Software Manager, FBIP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-body">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="mb-4 border-start border-primary ps-3 fst-italic">
+                "Working with Sanyam was a pleasure. His technical skills and communication made our project a success."
+              </blockquote>
+              <div class="d-flex align-items-center">
+                <img src="./assets/testtimonial3.jpg" class="rounded-circle me-3" alt="Customer" width="70" height="80">
+                <div>
+                  <p class="fw-bold mb-0">John Doe</p>
+                  <p class="text-muted small">Product Manager, Startup</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card product-card h-100">
+            <div class="card-body">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <blockquote class="mb-4 border-start border-primary ps-3 fst-italic">
+                "Sanyam's attention to detail and problem-solving abilities make him a valuable asset to any team."
+              </blockquote>
+              <div class="d-flex align-items-center">
+                <img src="./assets/testtimonial2.webp" class="rounded-circle me-3" alt="Customer" width="70" height="80">
+                <div>
+                  <p class="fw-bold mb-0">Sarah Johnson</p>
+                  <p class="text-muted small">Engineering Lead, Enterprise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-top py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://github.com/Sanyam0501" target="_blank" class="text-muted me-3">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/sanyam2004/" target="_blank" class="text-muted">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
